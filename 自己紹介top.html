@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+		
+    <link rel="stylesheet" type="text/css" href="CSS/自己紹介.CSS">
+<title>自己紹介ページ</title>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+</head>
+<script type="text/javascript">
+  $(function() {
+    var nav = $('.nav');
+    $('li', nav)
+    .mouseover(function(e) {
+    $('ul', this).stop().slideDown('fast');
+    })
+    .mouseout(function(e) {
+    $('ul', this).stop().slideUp('fast');
+    });
+  });
+  </script>
+<body>
+<!--ヘッダー-->
+<header>
+  <p>
+  <h1>
+    <a>Top</a>
+    <br><br>
+  </h1>
+  </p>
+  <ul class="nav">
+    <li><a href="自己紹介top.html">Top</a></li>
+    <li><a href="profile.html">profile</a></li>
+    <li><a href="hobby.html">hobby</a>
+      <ul class="sub">
+        <li><a href="hobby.html#turi">1番の趣味</a></li>
+      </ul></li>
+    <li><a href="favorite.html">favorite</a>
+      <ul class="sub">
+        <li><a href="favorite.html#neko">1番のお気に入り</a></li>
+      </ul></li>
+    <li><a href="life.html">life</a></li>
+    </ul>
+</header>
+  
+  <center>
+    <div style="margin-top: 70;margin-left: auto; margin-right: auto; width: 900px; padding: 5px;"></div>
+      <div class="leftcenter">
+      <div class="fade">
+      <p>
+  </center>  
+      </p>
+      </div>
+      </div>
+    </div>
+    <center>
+      <div style="margin-top: 100;margin-left: auto; margin-right: auto; width: 600px; padding: 5px; border: solid .1px #000000; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+        <div class="leftcenter">
+        <p>
+        <a href="profile.html"><font color="#000000">・プロフィール</a>
+        <br><a href="hobby.html"><font color="#000000">・趣味</a>
+        <br><a href="favorite.html"><font color="#000000">・お気に入り</a>
+        <br><a href="life.html"><font color="#000000">・経歴</a>
+    </center>  
+        </p>
+      </div>
+        </div>
+      </div>
+</body>
+</html>

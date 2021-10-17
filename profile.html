@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+		
+    <link rel="stylesheet" type="text/css" href="CSS/自己紹介.CSS">
+<title>profile</title>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+</head>
+<script type="text/javascript">
+  $(function() {
+    var nav = $('.nav');
+    $('li', nav)
+    .mouseover(function(e) {
+    $('ul', this).stop().slideDown('fast');
+    })
+    .mouseout(function(e) {
+    $('ul', this).stop().slideUp('fast');
+    });
+  });
+  </script>
+<body>
+<!--ヘッダー-->
+<header>
+  <p>
+    <h1>
+      <a>profile</a>
+      <br><br>
+    </h1>
+  </p>
+  <ul class="nav">
+    <li><a href="自己紹介top.html">Top</a></li>
+    <li><a href="profile.html">profile</a></li>
+    <li><a href="hobby.html">hobby</a>
+      <ul class="sub">
+        <li><a href="hobby.html#turi">1番の趣味</a></li>
+      </ul></li>
+    <li><a href="favorite.html">favorite</a>
+      <ul class="sub">
+        <li><a href="favorite.html#neko">1番のお気に入り</a></li>
+      </ul></li>
+    <li><a href="life.html">life</a></li>
+</header>
+
+  <center>
+    <div style="margin-top:200;margin-left: auto; margin-right: auto; width: 900px; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#5ea5f579 ;">
+      <div class="leftcenter">
+      <p>
+      2-A . No27 増田 について
+  </center>  
+      </p>
+      </div>
+    </div>
+
+  <!--アイコン-->
+  <center>
+  <div class="icon">
+    <img src="image/アイコン.PNG" width=300 height=auto>
+  </div>
+  <!--プロフ内容-->
+  <div style="margin-left: auto; margin-right: auto; width: 700px; padding: 10px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+    <div class="leftcenter">
+    <p>
+    ・名前　　：増田 成竜 (ますだ せいりゅう)<br>
+    <br>・性別　　：男(♂)<br>
+    <br>・血液型　：AB型<br>
+    <br>・年齢　　：21歳<br>
+    <br>・生年月日：平成12年 4月 14日<br>
+    <br>・在住　　：千葉県<br>
+    <br>・身長　　：169cm<br>
+    <br>・体重　　：67kg<br>
+    <br>・靴　　　：27cm<br>
+    <br>・利き手脚：右手、右脚<br>
+  </center>  
+    </p>
+    </div>
+  </div>
+  <div id="page_top"><a href="#"></a></div>
+  <br>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+		
+    <link rel="stylesheet" type="text/css" href="CSS/自己紹介.CSS">
+<title>hobby</title>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+</head>
+<script type="text/javascript">
+  $(function() {
+    var nav = $('.nav');
+    $('li', nav)
+    .mouseover(function(e) {
+    $('ul', this).stop().slideDown('fast');
+    })
+    .mouseout(function(e) {
+    $('ul', this).stop().slideUp('fast');
+    });
+  });
+  </script>
+<body>
+<!--ヘッダー-->
+<header>
+  <p>
+    <h1>
+      <a>hoby</a>
+      <br><br>
+    </h1>
+  </p>
+  <ul class="nav">
+    <li><a href="自己紹介top.html">Top</a></li>
+    <li><a href="profile.html">profile</a></li>
+    <li><a href="hobby.html">hobby</a>
+      <ul class="sub">
+        <li><a href="hobby.html#turi">1番の趣味</a></li>
+      </ul></li>
+    <li><a href="favorite.html">favorite</a>
+      <ul class="sub">
+        <li><a href="favorite.html#neko">1番のお気に入り</a></li>
+      </ul></li>
+    <li><a href="life.html">life</a></li>
+</header>
+  <center>
+    <div style="margin-top: 200;margin-left: auto; margin-right: auto; width: 900px; padding: 5px; border: solid .1px #ffffff;  border-radius:20px 20px 20px 20px; background-color:#eeff0079 ;">
+      <div class="leftcenter">
+      <p>
+      趣味
+  </center>  
+      </p>
+      </div>
+    </div>
+
+  <center>
+    <div style="margin-top: 100;margin-left: auto; margin-right: auto; width: 500px; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+      <div class="center">
+      <p>
+      野球
+      <br><img src=image/野球.JPG width="300" height="auto">
+      <br><img src=image/野球2.JPG width="300" height="auto">
+      <br><img src=image/野球4.JPG width="300" height="auto">
+  </center>  
+      </p>
+      </div>
+    </div>
+
+  <center>
+    <div style="margin-top: 50;margin-left: auto; margin-right: auto; width: 500px; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+      <div class="center">
+      <p>
+      <h2 id="turi">釣り</h2>
+      <br><img src=image/スズキ74cm.JPG width="300" height="auto">
+      <br><img src=image/夷隅川.JPG width="300" height="auto">
+      <br><img src=image/海.JPG width="300" height="auto">
+    </center>  
+      </p>
+      </div>
+    </div>
+
+    <center>
+      <div style="margin-top: 50;margin-left: auto; margin-right: auto; width: 600px; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+        <div class="leftcenter">
+        <p>
+        その他の趣味
+        <br><br>・楽器演奏(ベース、コルネットなど)
+        <br>・読書(小説、マンガ)
+        <br>・麻雀
+        <br>・ケータイゲーム
+      </center>  
+        </p>
+        </div>
+      </div>
+      <div id="page_top"><a href="#"></a></div>
+      <br>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+		
+    <link rel="stylesheet" type="text/css" href="CSS/自己紹介.CSS">
+<title>recommend</title>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+</head>
+<script type="text/javascript">
+  $(function() {
+    var nav = $('.nav');
+    $('li', nav)
+    .mouseover(function(e) {
+    $('ul', this).stop().slideDown('fast');
+    })
+    .mouseout(function(e) {
+    $('ul', this).stop().slideUp('fast');
+    });
+  });
+  </script>
+<body>
+<!--ヘッダー-->
+<header>
+  <p>
+    <h1>
+      <a>recommend</a>
+      <br><br>
+    </h1>
+  </p>
+  <ul class="nav">
+    <li><a href="自己紹介top.html">Top</a></li>
+    <li><a href="profile.html">profile</a></li>
+    <li><a href="hobby.html">hobby</a>
+      <ul class="sub">
+        <li><a href="hobby.html#turi">1番の趣味</a></li>
+      </ul></li>
+    <li><a href="job.html">job</a>
+      <ul class="sub">
+        <li><a href="job.html#neko">1番のおすすめ</a></li>
+      </ul></li>
+    <li><a href="life.html">life</a></li>
+</header>
+    <center>
+      <div style="margin-top: 200;margin-left: auto; margin-right: auto; width: 900px; padding: 5px; border: solid .1px #000000; border-radius:20px 20px 20px 20px; background-color:#eb64e479 ;">
+        <div class="leftcenter">
+        <p>
+        オススメのコンテンツ
+    </center>  
+        </p>
+        </div>
+      </div>
+      <center>
+        <div style="margin-top: 40;margin-left: auto; margin-right: auto; width: 500px; padding: 5px; border: solid .1px #000000; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+          <div class="leftcenter">
+          <p>
+          <a href="#douga"><font color="#000000">・動画</a>
+          <br><a href="#honn1"><font color="#000000">・本１</a>
+          <br><a href="#honn2"><font color="#000000">・本２</a>
+          <br><a href="#neko"><font color="#000000">・1番のオススメ</a>
+      </center>  
+          </p>
+          </div>
+        </div>
+    <center>
+      <div style="margin-top: 50;margin-left: auto; margin-right: auto; width: autopx; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+        <div class="leftcenter">
+        <p>
+          <h2 id="douga">オススメの動画</h2>
+          <br> 癖になる
+          <br><iframe width="560" height="315" src="https://www.youtube.com/embed/CWxvIkqypWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+    </center>  
+        </p>
+        </div>
+      </div>
+      <center>
+        <div style="margin-top: 30;margin-left: auto; margin-right: auto; width: autox; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+          <div class="leftcenter">
+          <p>
+          <h2 id="honn1">オススメの本</h2>
+          <br>〜 ハリーポッターシリーズ 〜
+          <br>　　重厚なストーリーで魔法の世界をハリーたち
+          <br>　　ホグワーツのみんなと一緒に冒険できる。
+          <br>　　小説だけで出てくる設定や細かい描写があるので
+          <br>　　映画だけしか観たことのない人は是非。
+          <br><img src=image/ハリーポッター.jpg width="600" height="auto">
+          <br><br><h2 id="honn2">〜雷桜〜</h2>
+          <br>　　特殊な身分の二人が運命の恋に落ちて行く
+          <br>　　切ない恋愛時代劇。
+          <br>　　実写映画版と小説で違う展開になっているので
+          <br>　　両方見ることがお勧め。(増田は小説派)
+          <br><img src=image/雷桜.JPG width="300" height="auto">
+          　<img src=image/雷桜映画.JPG width="300" height="auto">
+      </center>  
+          </p>
+          </div>
+        </div>
+        <center>
+          <div style="margin-top: 30;margin-left: auto; margin-right: auto; width: autopx; padding: 5px; border: solid .1px #ffffff; border-radius:20px 20px 20px 20px; background-color:#ffffff9f ;">
+            <div class="leftcenter">
+            <p>
+              <h2 id="neko">1番のオススメ</h2>
+              <br>〜ねこ〜
+              <br>　　かわいい
+              <br><img src=image/ニキ3.JPG width="400" height="auto">
+              　<img src=image/ニキ2.JPG width="400" height="auto">
+              <br><img src=image/北島1.JPG width="400" height="auto">
+              　<img src=image/北島2.JPG width="400" height="auto">
+        </center>  
+            </p>
+            </div>
+          </div>
+          <br>
+          <div id="page_top"><a href="#"></a></div>
+</body>
+</html>
